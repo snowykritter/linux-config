@@ -1,0 +1,72 @@
+@import "mocha.css";
+
+* {
+  color: @crust;
+  font-family: "Fira Code Semibold";
+  font-size: 16px;
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#waybar {
+  background: transparent;
+}
+
+.modules-left {
+  margin:
+    6px
+    0px
+    6px
+    6px;
+}
+.modules-center {
+  margin:
+    6px
+    6px
+    6px
+    6px
+}
+
+.modules-left,
+.modules-center {
+  background: @green;
+}
+.modules-left {
+  padding-right: 4px;
+}
+.modules-right {
+  padding-left: 4px;
+}
+
+#workspaces button {
+  border-radius: 0px;
+  padding:
+    2px
+    2px
+    0px
+    4px;
+}
+#workspaces button.focused {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.381966);
+}
+
+#clock {
+  padding:
+    2px
+    8px
+    2px
+    8px;
+}
+
+#tray {
+  padding:
+    2px
+    4px
+    2px
+    4px;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "clock": {
+      "format": "{:%b %e %Y %H:%M}",
+      "interval": 60,
+      "tooltip": true,
+      "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
+    },
+    "layer": "top",
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "sway/workspaces",
+      "sway/mode",
+      "sway/window"
+    ],
+    "modules-right": [
+      ""
+    ],
+    "position": "top",
+    "sway/mode": {
+      "format": "{}",
+      "tooltip": false
+    },
+    "sway/window": {
+      "format": "{title}",
+      "max-length": 50,
+      "rewrite": {
+        "": "",
+        "(.*)Discord": "Discord",
+        "(.+)": "| $1 "
+      }
+    },
+    "tray": {
+      "icon-size": 18,
+      "reverse-direction": true,
+      "spacing": 5
+    }
+  }
+]
