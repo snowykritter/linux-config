@@ -1,0 +1,19 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo":"/Users/kritter/.config/fastfetch/kitty.txt",
+  "modules": [
+    "title",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "shell",
+    "icons",
+    "terminalfont",
+    "cpu",
+    "memory",
+    "disk",
+    "break",
+    "colors"
+  ]
+}
